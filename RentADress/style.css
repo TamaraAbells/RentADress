@@ -140,10 +140,6 @@ header {
     text-decoration: none;
 }
 
-.address {
-    /* color: coral; */
-}
-
 #li {
     margin-right: 10px;
 }
@@ -164,8 +160,6 @@ p {
     font-size: larger;
     color: white
 }
-
-#ul3 {}
 
 #ul4 {
     list-style: none;
