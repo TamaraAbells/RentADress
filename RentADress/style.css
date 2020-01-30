@@ -34,6 +34,9 @@ header {
 .grid-container {
     display: grid;
     grid-gap: 65px;
+
+  justify-items: center;
+  align-items: center;
     grid-template-columns: auto auto auto;
     margin: 80px 10px 0px 10px;
 }
@@ -77,11 +80,11 @@ header {
     backface-visibility: hidden;
   }
   
-  .flip-card-front {
+  /* .flip-card-front {
     background-color: #bbb;
     color: black;
   }
-  
+   */
   .flip-card-back {
     background-color: #2980b9;
     color: white;
