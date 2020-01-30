@@ -18,6 +18,24 @@ header {
     color: #59276C;
 }
 
+/* To change from button style to text style, 
+   simply comment out the non-commented part, and uncomment the commented part.
+*/
+a.radNow:link, a.radNow:visited {
+    background-color: rgb(166, 77, 201);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* color: rgb(166, 77, 201); */
+  }
+  
+  a.radNow:hover, a.radNow:active {
+    background-color: #59276C;
+    /* color: #59276C; */
+  }
+
 #Logo {
     width: 13%;
     margin-left: 50px;
